@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt('Podaj bok a'));
+        let b = parseInt(prompt('Podaj bok b'));
+        let c = parseInt(prompt('Podaj bok c'));
+
+        if (a == b && b == c)
+            alert('Trójkąt równoboczny');
+        else if (a == b || b == c || a == c)
+            alert('Trójkąt równoramienny');
+        else 
+            alert('Trójkąt róźnoboczny');
+
+    </script>
+</body>
+</html>
